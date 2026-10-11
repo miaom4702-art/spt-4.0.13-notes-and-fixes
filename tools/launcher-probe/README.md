@@ -20,7 +20,7 @@ SPT 4.0.13 的启动器核心（`SPT.Launcher.Base`）做了**字符串加密/�
 dotnet build .\SptProbe.csproj -c Release -o .\out
 
 # 2) 用探针启动启动器（会自动关掉已运行的启动器）
-.\run-probe.ps1 -SptRoot "D:\ETF\SPT-4.0.13" -DotnetRoot "D:\SPT-dotnet9"
+.\run-probe.ps1 -SptRoot "C:\Games\SPT" -DotnetRoot "D:\SPT-dotnet9"
 
 # 3) 读结果
 Get-Content "$env:TEMP\spt-launcher-probe.log"

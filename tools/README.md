@@ -13,15 +13,15 @@
 
 ```powershell
 # A. 启动器校验失败时，先看它到底在校验什么
-.\launcher-probe\run-probe.ps1 -SptRoot "D:\ETF\SPT-4.0.13" -DotnetRoot "D:\SPT-dotnet9"
+.\launcher-probe\run-probe.ps1 -SptRoot "C:\Games\SPT" -DotnetRoot "D:\SPT-dotnet9"
 
 # B. 游戏更新后想重新定位刷点逻辑（本插件失效时用）
-.\analysis\find-spawn-code.ps1 -SptRoot "D:\ETF\SPT-4.0.13"
+.\analysis\find-spawn-code.ps1 -SptRoot "C:\Games\SPT"
 
 # C. 只想降刷新强度（可一键还原）
-.\tune-botspawn-config.ps1 -SptRoot "D:\ETF\SPT-4.0.13" -ZeroTypeLimitsMin
+.\tune-botspawn-config.ps1 -SptRoot "C:\Games\SPT" -ZeroTypeLimitsMin
 # 还原：
-.\tune-botspawn-config.ps1 -SptRoot "D:\ETF\SPT-4.0.13" -Restore
+.\tune-botspawn-config.ps1 -SptRoot "C:\Games\SPT" -Restore
 ```
 
 ## 依赖

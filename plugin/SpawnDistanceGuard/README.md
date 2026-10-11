@@ -40,14 +40,14 @@ LogBlockedPoints = true
 需要 .NET SDK（9.0.x 验证通过）与一份 SPT 4.0.13 安装：
 
 ```powershell
-dotnet build -c Release -p:SptRoot="D:\ETF\SPT-4.0.13"
+dotnet build -c Release -p:SptRoot="C:\Games\SPT"
 # 产物：bin\Release\net472\SpawnDistanceGuard.dll
 ```
 
 或直接跑：
 
 ```powershell
-.\build.ps1 -SptRoot "D:\ETF\SPT-4.0.13" -Deploy
+.\build.ps1 -SptRoot "C:\Games\SPT" -Deploy
 ```
 
 `-Deploy` 会把 DLL 复制进 `BepInEx\plugins\SpawnDistanceGuard\`。

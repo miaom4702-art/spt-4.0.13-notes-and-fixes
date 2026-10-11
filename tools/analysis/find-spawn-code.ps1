@@ -1,5 +1,5 @@
 param(
-    [string]$SptRoot = 'D:\ETF\SPT-4.0.13',
+    [string]$SptRoot = 'C:\Games\SPT',
     [string]$TypeName = 'SpawnPointMarker',
     [string]$CallRegex = 'GClass3586::IsValid\(EFT\.Game\.Spawning\.ISpawnPoint'
 )

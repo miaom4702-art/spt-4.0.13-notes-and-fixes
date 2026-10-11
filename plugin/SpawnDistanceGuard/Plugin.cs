@@ -37,7 +37,7 @@ namespace SpawnDistanceGuard
     {
         public const string Guid = "dsh.spt.spawndistanceguard";
         public const string Name = "SPT Spawn Distance Guard";
-        public const string Version = "1.0.0";
+        public const string Version = "0.1.0";
 
         internal static ManualLogSource Log;
         internal static ConfigEntry<bool> EnabledCfg;

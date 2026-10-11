@@ -1,5 +1,5 @@
 param(
-    [string]$SptRoot = 'D:\ETF\SPT-4.0.13',
+    [string]$SptRoot = 'C:\Games\SPT',
     [string[]]$Maps = @('bigmap','factory4_day','factory4_night','interchange','laboratory','labyrinth',
                         'lighthouse','rezervbase','sandbox','sandbox_high','shoreline','tarkovstreets','woods'),
     [int]$PeriodCheck = 90,

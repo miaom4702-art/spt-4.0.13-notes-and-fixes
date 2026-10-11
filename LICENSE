@@ -19,10 +19,3 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
-
----
-
-说明：本许可证仅覆盖本仓库中的自有代码与文档。
-本仓库不包含 Battlestate Games 的游戏文件、SPT 项目组的发行文件或其程序集；
-引用它们仅用于编译期引用（<Private>false</Private>，不会随产物分发）。
-Single Player Tarkov 项目本身采用 NCSA 许可证，与 Battlestate Games 无隶属关系。
