@@ -1,0 +1,24 @@
+# 构建产物
+bin/
+obj/
+out/
+decomp/
+
+# 编辑器/系统
+.vs/
+.idea/
+*.user
+Thumbs.db
+desktop.ini
+
+# 不要把游戏/SPT 文件塞进来
+*.dll
+*.exe
+*.pdb
+*.7z
+*.zip
+!tools/**/*.ps1
+
+# 本地私货
+*.local.md
+notes-private/
